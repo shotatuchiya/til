@@ -1,0 +1,17 @@
+# ルーティングの設定
+
+config/routes.rb
+
+Rails.application.routes.draw do
+
+root to: 'questions#index' (path)
+
+resources :questions, only: [:index, :new, :create]  (アクション)
+
+end
+
+# 備考
+
+・root_path のpathに関しては　rails routes とターミナルで実行するとpathを確認できる。
+
+・resourcesは７つのアクションをまとめたメソッド
