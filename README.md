@@ -6,6 +6,6 @@ PHP
 
 laravel
 
-# 補足
+## 補足
 
 ※Ruby、Rails、Git、javascript、HTML、CSSに関てしTECH CAMPにて学習が終えてるので復習を行った際にcommitしていきます。
