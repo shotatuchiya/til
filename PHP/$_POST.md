@@ -1,22 +1,22 @@
 # 送信ボタン
 
-<form action=”sent.php” method=”post”>
+＜form action=”sent.php” method=”post”＞
 
 Emailを入力してください
 
-<input type=”submit” value=”送信”>
+＜input type=”submit” value=”送信”＞
 
-</form>
+＜/form＞
 
 送信ボタンをつくるには<input type="submit">を用います。
 
 value属性に指定された値がボタン上に表示されます。
 
-フォームのデータを受け取る
+# フォームのデータを受け取る
 
-<?php echo $_POST['name']; ?>　　←'name'はキーを表す
+＜?php echo $_POST['name']; ?＞　　←'name'はキーを表す
 
-<?php echo $_POST['body']; ?>
+＜?php echo $_POST['body']; ?＞
 
 フォームで送信した値を受け取るには「$_POST」を使用します。
 
