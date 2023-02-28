@@ -1,0 +1,39 @@
+# セレクトボックスの作り方
+
+＜select＞
+
+＜option>りんご</option＞
+
+＜option>ばなな</option＞
+
+＜option>みかん</option＞
+
+＜/select＞
+
+セレクトボックスをつくるには<select>タグの中に<option>タグを並べます。
+
+<option>タグの中身が選択肢として表示されます。
+
+# 選んだ選択肢の値を渡す
+
+＜form action=”sent.php” method=”post”＞
+
+＜select name=”fruit”＞
+
+＜option value=”apple”>りんご</option＞
+
+＜option value=”banana”>ばなな</option＞
+
+＜option value=”orange”>みかん</option＞
+
+＜/select＞
+
+＜/form＞
+
+echo $_POST[’fruit’];
+
+セレクトボックスの値の渡し方を見てみましょう。
+
+<select>タグには「$_POST」で値を受け取るためのname属性を指定します。
+
+<option>タグのvalue属性が送信される値です。
