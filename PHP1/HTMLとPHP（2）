@@ -1,0 +1,47 @@
+メニュー一覧
+
+4つのメニューが入った配列を用意して、その配列に対して繰り返し処理を用いて、それぞれのメニューを表示していきます。
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5244407f-d67f-4df2-b8c1-6ba5e2464319/Untitled.png)
+
+foreach文をHTMLに埋め込む
+
+<?php
+
+$words = array(’apple’, ‘banana’, ‘orange’);
+
+?>
+
+<?php foreach ($words as $word): ?>
+
+<p><?php echo $word ?></p>
+
+<?php endforeach ?>
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f1a6cd8-9822-4e7b-9d71-b2a080714cce/Untitled.png)
+
+foreach文の「{」の代わりに「:」、「}」の代わりに「endforeach」と記述し、その間に処理を書いていきます。この処理部分にはHTMLのタグを書くことができるので便利です。
+
+endif, endfor
+
+<?php
+
+$age = 24;
+
+?>
+
+<?php if($age > = 20): ?>
+
+<p><?php echo ‘あなたは成人です’ ?></p>
+
+<?php endif ?>
+
+---
+
+<?php for($I = 0; $I < 100; $I ++): ?>
+
+<p><?php echo $I ?></p>
+
+<?php endfor ?>
+
+if文、for文、while文やswitch文などもforeach文と同様に、それぞれ「endif」、「endfor」、「endwhile」、「endswitch」を使って書くことができます。
