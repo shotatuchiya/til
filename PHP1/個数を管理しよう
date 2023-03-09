@@ -1,0 +1,19 @@
+# **個数を管理しよう**
+
+セッター
+
+プロパティのアクセス権をprivateにするとプロパティの値をクラスの外から変更できなくなります。
+
+そこで、プロパティの値を変更するメソッドを定義します。
+
+このような、プロパティの値を変更するメソッドを特に「セッター」といいます。セッターは「setプロパティ名」のように命名するのが一般的です。
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9088ca7d-9ae2-40d8-abb6-18c3c2887ead/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e495f299-9884-4092-80ca-4cc3d7b909de/Untitled.png)
+
+プロパティの初期値
+
+$orderCountプロパティの初期値を0にしましょう。
+
+プロパティを定義する際には図のように初期値をセットすることができます。
