@@ -1,0 +1,13 @@
+フォームを作ろう
+
+HTMLの<form>タグ、<input>タグを用いてそれぞれのメニューを、個数を指定して注文できるようにしましょう。
+
+ここでは<input>タグのname属性にMenuインスタンスのnameプロパティの値を指定します（<input>タグのname属性を値を受け取るときに用いることはPHPⅠで学習しました）。
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/481f9923-2740-4d17-bc53-5f51e4ef21ab/Untitled.png)
+
+inputタグの初期値
+
+<input>タグにvalue属性を用いると初期値を設定することができます。
+
+初期値に指定した値がテキストボックスに最初から表示されます。
